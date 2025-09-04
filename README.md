@@ -69,6 +69,7 @@ Classifier results (Model: LightGBM)
 - Recall (high income): 0.493
 - F1 score: 0.5977
 - Confusion Matrix: 
+
 |             | Predicted ≤50K | Predicted >50K |
 | ----------- | -------------- | -------------- |
 | Actual ≤50K | 64,250,904.6   | 702,197.0      |
@@ -80,6 +81,27 @@ Segmentation result (k = 8, silhouette ≈ 0.22):
 - Segment 2: Retail workers, 11% >50K
 - Segment 6: Professionals, 88% >50K
 - Segment 7: Clerical workers, 10% >50K
+
+---
+
+## Visualizations
+
+After running `python -m src.visualize`, the following plots are generated in `results/`:
+
+- Confusion Matrix  
+  ![Confusion Matrix](results/confusion_matrix.png)
+
+- ROC Curve  
+  ![ROC Curve](results/roc_curve.png)
+
+- Precision–Recall Curve  
+  ![PR Curve](results/pr_curve.png)
+
+- Segmentation Sizes  
+  ![Segment Sizes](results/segment_sizes.png)
+
+- Segmentation PCA Projection  
+  ![Segmentation PCA](results/segment_pca.png)
 
 ---
 
