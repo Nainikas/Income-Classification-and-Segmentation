@@ -69,7 +69,6 @@ Classifier results (Model: LightGBM)
 - Recall (high income): 0.493
 - F1 score: 0.5977
 - Confusion Matrix: 
-
 |             | Predicted ≤50K | Predicted >50K |
 | ----------- | -------------- | -------------- |
 | Actual ≤50K | 64,250,904.6   | 702,197.0      |
