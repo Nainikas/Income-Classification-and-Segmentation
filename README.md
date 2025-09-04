@@ -17,7 +17,6 @@ This project uses U.S. Census Bureau Current Population Survey (1994–95) data 
 Clone the repo and create a virtual environment:
 
 ```powershell
-cd jpm-project
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -38,7 +37,7 @@ python -m src.train_classify `
 
 Outputs:
 - results/best_classifier.pkl – saved model
-- results/metrics.json – metrics (accuracy, precision, recall, etc.)
+- results/classifier_metrics.json – metrics (accuracy, precision, recall, etc.)
 
 2. Segmentation
 
