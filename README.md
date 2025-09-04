@@ -62,13 +62,13 @@ Outputs:
 
 Classifier results (Model: LightGBM)
 
-Accuracy: 95.7150%
-ROC-AUC: 0.9551
-PR-AUC: 0.6993
-Precision (high income): 0.7589
-Recall (high income): 0.493
-F1 score: 0.5977
-Confusion Matrix: 
+- Accuracy: 95.7150%
+- ROC-AUC: 0.9551
+- PR-AUC: 0.6993
+- Precision (high income): 0.7589
+- Recall (high income): 0.493
+- F1 score: 0.5977
+- Confusion Matrix: 
 |             | Predicted ≤50K | Predicted >50K |
 | ----------- | -------------- | -------------- |
 | Actual ≤50K | 64,250,904.6   | 702,197.0      |
