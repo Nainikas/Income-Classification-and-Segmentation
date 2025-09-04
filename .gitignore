@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter / VS Code
+.ipynb_checkpoints/
+.vscode/
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Data
+data/*.data
+!data/census-bureau.columns
+
+# Results
+
+results/*.pkl
+results/*.parquet
+
+!results/*.json
+!results/*.csv
+!results/*.md
